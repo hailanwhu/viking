@@ -1,17 +1,18 @@
 ---
-title: "An example conference paper"
+title: "An Index Advisor Using Deep Reinforcement Learning"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- admin
-- Robert Ford
+- Hai Lan
+- Zhifeng Bao
+- Yuwei Peng
 
 # Author notes (optional)
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
+#author_notes:
+#- "Equal contribution"
+#- "Equal contribution"
 
 date: "2013-07-01T00:00:00Z"
 doi: ""
@@ -26,13 +27,32 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+publication: CIKM
+#publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: In this paper, we study the problem of index selection to maximize
+the workload performance, which is critical to database systems.
+In contrast to existing methods, we propose an index advisor that
+integrates index recommendation rules and deep reinforcement
+learning, such that it can recommend single-attribute and multiattribute
+indexes together for complex queries and meanwhile support
+multiple-index access to a table. Specifically, we first propose
+five heuristic rules to generate the index candidates. Then, we formulate
+the index selection problem as a reinforcement learning task
+and employ Deep Q Network (DQN) on it to select a subset of candidates
+as the recommended indexes. Using the heuristic rules can
+significantly reduce the dimensions of the action space and state
+space in reinforcement learning. With the neural network used in
+DQN, we can model the interactions between indexes better than
+previous methods. We conduct experiments on various workloads
+to show its superiority.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: we proposed a novel method to solve the ISP by integrating heuristic
+rules and DRL together. Unlike previous RL based methods, our
+method can recommend single and multi-attributes index together
+and support complex queries; moreover, our method can model the
+interaction between different indexes in a fine-grained manner.
 
 tags: []
 
@@ -44,7 +64,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://dl.acm.org/doi/10.1145/3340531.3412106'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -55,10 +75,10 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ""
-  preview_only: false
+#image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#  focal_point: ""
+#  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
