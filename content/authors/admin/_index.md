@@ -14,13 +14,14 @@ organizations:
   url: https://www.rmit.edu.au/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include database system (esp in optimization) and trajectory data processing.
+bio: My research interests include database system (especially in query optimization and index), applying learning methods into database, and trajectory data processing.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Query Optimization
+- Data Storage and Indexing
+- Applied learning methods to database
+- Trajectory Processing and Management
 
 # Education to show in About widget
 education:
@@ -70,8 +71,8 @@ email: "hai.lan@rmit.edu.au"
 highlight_name: false
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Research Intern in Database and Storage Lab at Alibaba DAMO Academy. I obtained my M.S. under the surpervison of [A/Prof. Yuwei Peng](http://www.pengyuwei.net/index_en.html) in Wuhan University. My B.S. was in Computer Science from Wuhan University.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I will pursue the Ph.D. degree at Computer Science and Information Technology from RMIT University under the surpervison of [A/Prof. Zhifeng Bao](https://baozhifeng.net/) and [A/Prof. Shane Culpepper](https://culpepper.io/).
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
