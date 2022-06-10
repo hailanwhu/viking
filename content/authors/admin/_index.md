@@ -73,6 +73,6 @@ highlight_name: false
 
 I am a Research Intern in Database and Storage Lab at Alibaba DAMO Academy. I obtained my M.S. under the surpervison of [A/Prof. Yuwei Peng](http://www.pengyuwei.net/index_en.html) in Wuhan University. My B.S. was in Computer Science from Wuhan University.
 
-I will pursue the Ph.D. degree at Computer Science and Information Technology from RMIT University under the surpervison of [A/Prof. Zhifeng Bao](https://baozhifeng.net/) and [A/Prof. Shane Culpepper](https://culpepper.io/).
+I will pursue the Ph.D. degree at Computer Science and Information Technology from RMIT University under the surpervison of [Prof. Zhifeng Bao](https://baozhifeng.net/) and [Prof. Shane Culpepper](https://culpepper.io/).
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
